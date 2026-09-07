@@ -1,0 +1,20 @@
+# CMake build directories
+build/
+cmake-build-*/
+
+# Windows
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# macOS / Linux object files
+*.o
+*.so
+*.dylib
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
